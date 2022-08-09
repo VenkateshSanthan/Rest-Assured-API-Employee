@@ -1,0 +1,357 @@
+**** Started TC001_GET_ALL_Employees****
+****Checking Content Type****
+Content Type is===>text/html; charset=UTF-8
+****Checking Headers****
+Check Headers are===>Content-Encoding=gzip
+Content-Type=text/html; charset=UTF-8
+Date=Tue, 09 Aug 2022 06:07:41 GMT
+Display=staticcontent_sol
+Expires=Mon, 08 Aug 2022 06:07:41 GMT
+Host-Header=c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Pagespeed=off
+Response=429
+Retry-After=14
+Server=nginx
+Vary=Accept-Encoding,User-Agent,Origin
+X-Endurance-Cache-Level=2
+X-Ezoic-Cdn=Miss
+X-Middleton-Display=staticcontent_sol
+X-Middleton-Response=429
+X-Nginx-Cache=WordPress
+X-Origin-Cache-Control=no-cache, private
+X-Ratelimit-Limit=60
+X-Ratelimit-Remaining=51
+X-Ratelimit-Reset=1660025275
+X-Sol=pub_site
+Content-Length=588
+****Checking Response Body****
+Response Body is===><!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+****Checking Response Time****
+Cookies Are==>1847
+****Checking Server Type****
+Check Server Type===>nginx
+****Checking Status Code****
+Status Code is===>429
+****Completed TC001_GET_All_Employees****
+2022-39-09 11:39:53 INFO  RestAssuredAPITesting_Employee_Project;20 - **** Started TC001_GET_ALL_Employees****
+2022-39-09 11:39:59 INFO  RestAssuredAPITesting_Employee_Project;68 - ****Checking Server Type****
+2022-39-09 11:39:59 INFO  RestAssuredAPITesting_Employee_Project;70 - Check Server Type===>nginx
+2022-39-09 11:39:59 INFO  RestAssuredAPITesting_Employee_Project;88 - ****Completed TC001_GET_All_Employees****
+2022-08-09 11:42:40 INFO  RestAssuredAPITesting_Employee_Project;20 - **** Started TC001_GET_ALL_Employees****
+2022-08-09 11:42:46 INFO  RestAssuredAPITesting_Employee_Project;50 - ****Checking Content Type****
+2022-08-09 11:42:46 INFO  RestAssuredAPITesting_Employee_Project;52 - Content Type is===>application/json
+2022-08-09 11:42:46 INFO  RestAssuredAPITesting_Employee_Project;59 - ****Checking Headers****
+2022-08-09 11:42:46 INFO  RestAssuredAPITesting_Employee_Project;61 - Check Headers are===>Cache-Control=no-cache, private, max-age=21600
+Content-Encoding=gzip
+Content-Type=application/json
+Date=Tue, 09 Aug 2022 06:12:45 GMT
+Display=staticcontent_sol
+Expires=Tue, 09 Aug 2022 12:12:45 GMT
+Host-Header=c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Response=200
+Server=nginx
+Vary=Accept-Encoding,User-Agent,Origin
+X-Endurance-Cache-Level=2
+X-Ezoic-Cdn=Miss
+X-Middleton-Display=staticcontent_sol
+X-Middleton-Response=200
+X-Nginx-Cache=WordPress
+X-Origin-Cache-Control=no-cache, private
+X-Ratelimit-Limit=60
+X-Ratelimit-Remaining=58
+X-Server-Cache=false
+X-Sol=pub_site
+Content-Length=631
+2022-08-09 11:42:46 INFO  RestAssuredAPITesting_Employee_Project;32 - ****Checking Response Body****
+2022-08-09 11:42:46 INFO  RestAssuredAPITesting_Employee_Project;34 - Response Body is===>{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+2022-08-09 11:42:46 INFO  RestAssuredAPITesting_Employee_Project;77 - ****Checking Response Time****
+2022-08-09 11:42:46 INFO  RestAssuredAPITesting_Employee_Project;79 - Cookies Are==>1870
+2022-08-09 11:42:46 INFO  RestAssuredAPITesting_Employee_Project;68 - ****Checking Server Type****
+2022-08-09 11:42:46 INFO  RestAssuredAPITesting_Employee_Project;70 - Check Server Type===>nginx
+2022-08-09 11:42:46 INFO  RestAssuredAPITesting_Employee_Project;41 - ****Checking Status Code****
+2022-08-09 11:42:46 INFO  RestAssuredAPITesting_Employee_Project;43 - Status Code is===>200
+2022-08-09 11:42:46 INFO  RestAssuredAPITesting_Employee_Project;88 - ****Completed TC001_GET_All_Employees****
+2022-08-09 15:04:23 INFO  RestAssuredAPITesting_Employee_Project;20 - **** Started TC001_GET_ALL_Employees****
+2022-08-09 15:04:29 INFO  RestAssuredAPITesting_Employee_Project;50 - ****Checking Content Type****
+2022-08-09 15:04:29 INFO  RestAssuredAPITesting_Employee_Project;52 - Content Type is===>text/html; charset=UTF-8
+2022-08-09 15:04:29 INFO  RestAssuredAPITesting_Employee_Project;59 - ****Checking Headers****
+2022-08-09 15:04:29 INFO  RestAssuredAPITesting_Employee_Project;61 - Check Headers are===>Content-Encoding=gzip
+Content-Type=text/html; charset=UTF-8
+Date=Tue, 09 Aug 2022 09:34:29 GMT
+Display=staticcontent_sol
+Expires=Mon, 08 Aug 2022 09:34:29 GMT
+Host-Header=c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Pagespeed=off
+Response=429
+Retry-After=53
+Server=nginx
+Vary=Accept-Encoding,User-Agent,Origin
+X-Endurance-Cache-Level=2
+X-Ezoic-Cdn=Miss
+X-Middleton-Display=staticcontent_sol
+X-Middleton-Response=429
+X-Nginx-Cache=WordPress
+X-Origin-Cache-Control=no-cache, private
+X-Ratelimit-Limit=60
+X-Ratelimit-Remaining=57
+X-Ratelimit-Reset=1660037722
+X-Sol=pub_site
+Content-Length=588
+2022-08-09 15:04:29 INFO  RestAssuredAPITesting_Employee_Project;32 - ****Checking Response Body****
+2022-08-09 15:04:29 INFO  RestAssuredAPITesting_Employee_Project;34 - Response Body is===><!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+2022-08-09 15:04:29 INFO  RestAssuredAPITesting_Employee_Project;77 - ****Checking Response Time****
+2022-08-09 15:04:29 INFO  RestAssuredAPITesting_Employee_Project;79 - Cookies Are==>2212
+2022-08-09 15:04:29 INFO  RestAssuredAPITesting_Employee_Project;68 - ****Checking Server Type****
+2022-08-09 15:04:29 INFO  RestAssuredAPITesting_Employee_Project;70 - Check Server Type===>nginx
+2022-08-09 15:04:29 INFO  RestAssuredAPITesting_Employee_Project;41 - ****Checking Status Code****
+2022-08-09 15:04:29 INFO  RestAssuredAPITesting_Employee_Project;43 - Status Code is===>429
+2022-08-09 15:04:29 INFO  RestAssuredAPITesting_Employee_Project;88 - ****Completed TC001_GET_All_Employees****
+2022-08-09 15:06:51 INFO  RestAssuredAPITesting_Employee_Project;20 - **** Started TC001_GET_ALL_Employees****
+2022-08-09 15:07:00 INFO  RestAssuredAPITesting_Employee_Project;50 - ****Checking Content Type****
+2022-08-09 15:07:00 INFO  RestAssuredAPITesting_Employee_Project;52 - Content Type is===>text/html; charset=UTF-8
+2022-08-09 15:07:00 INFO  RestAssuredAPITesting_Employee_Project;59 - ****Checking Headers****
+2022-08-09 15:07:00 INFO  RestAssuredAPITesting_Employee_Project;61 - Check Headers are===>Content-Encoding=gzip
+Content-Type=text/html; charset=UTF-8
+Date=Tue, 09 Aug 2022 09:37:00 GMT
+Display=staticcontent_sol
+Expires=Mon, 08 Aug 2022 09:37:00 GMT
+Host-Header=c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Pagespeed=off
+Response=429
+Retry-After=38
+Server=nginx
+Vary=Accept-Encoding,User-Agent,Origin
+X-Endurance-Cache-Level=2
+X-Ezoic-Cdn=Miss
+X-Middleton-Display=staticcontent_sol
+X-Middleton-Response=429
+X-Nginx-Cache=WordPress
+X-Origin-Cache-Control=no-cache, private
+X-Ratelimit-Limit=60
+X-Ratelimit-Remaining=57
+X-Ratelimit-Reset=1660037857
+X-Sol=pub_site
+Content-Length=588
+2022-08-09 15:07:00 INFO  RestAssuredAPITesting_Employee_Project;32 - ****Checking Response Body****
+2022-08-09 15:07:00 INFO  RestAssuredAPITesting_Employee_Project;34 - Response Body is===><!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+2022-08-09 15:07:00 INFO  RestAssuredAPITesting_Employee_Project;77 - ****Checking Response Time****
+2022-08-09 15:07:00 INFO  RestAssuredAPITesting_Employee_Project;79 - Cookies Are==>5070
+2022-08-09 15:07:00 INFO  RestAssuredAPITesting_Employee_Project;68 - ****Checking Server Type****
+2022-08-09 15:07:00 INFO  RestAssuredAPITesting_Employee_Project;70 - Check Server Type===>nginx
+2022-08-09 15:07:00 INFO  RestAssuredAPITesting_Employee_Project;41 - ****Checking Status Code****
+2022-08-09 15:07:00 INFO  RestAssuredAPITesting_Employee_Project;43 - Status Code is===>429
+2022-08-09 15:07:00 INFO  RestAssuredAPITesting_Employee_Project;88 - ****Completed TC001_GET_All_Employees****
+2022-08-09 15:11:50 INFO  RestAssuredAPITesting_Employee_Project;20 - **** Started TC001_GET_ALL_Employees****
+2022-08-09 15:11:57 INFO  RestAssuredAPITesting_Employee_Project;50 - ****Checking Content Type****
+2022-08-09 15:11:57 INFO  RestAssuredAPITesting_Employee_Project;52 - Content Type is===>application/json
+2022-08-09 15:11:57 INFO  RestAssuredAPITesting_Employee_Project;59 - ****Checking Headers****
+2022-08-09 15:11:57 INFO  RestAssuredAPITesting_Employee_Project;61 - Check Headers are===>Cache-Control=no-cache, private, max-age=21600
+Content-Encoding=gzip
+Content-Type=application/json
+Date=Tue, 09 Aug 2022 09:41:56 GMT
+Display=staticcontent_sol
+Expires=Tue, 09 Aug 2022 15:41:56 GMT
+Host-Header=c2hhcmVkLmJsdWVob3N0LmNvbQ==
+Response=200
+Server=nginx
+Vary=Accept-Encoding,User-Agent,Origin
+X-Endurance-Cache-Level=2
+X-Ezoic-Cdn=Miss
+X-Middleton-Display=staticcontent_sol
+X-Middleton-Response=200
+X-Nginx-Cache=WordPress
+X-Origin-Cache-Control=no-cache, private
+X-Ratelimit-Limit=60
+X-Ratelimit-Remaining=57
+X-Server-Cache=false
+X-Sol=pub_site
+Content-Length=631
+2022-08-09 15:11:57 INFO  RestAssuredAPITesting_Employee_Project;32 - ****Checking Response Body****
+2022-08-09 15:11:57 INFO  RestAssuredAPITesting_Employee_Project;34 - Response Body is===>{"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+2022-08-09 15:11:57 INFO  RestAssuredAPITesting_Employee_Project;77 - ****Checking Response Time****
+2022-08-09 15:11:57 INFO  RestAssuredAPITesting_Employee_Project;79 - Cookies Are==>2218
+2022-08-09 15:11:57 INFO  RestAssuredAPITesting_Employee_Project;68 - ****Checking Server Type****
+2022-08-09 15:11:57 INFO  RestAssuredAPITesting_Employee_Project;70 - Check Server Type===>nginx
+2022-08-09 15:11:57 INFO  RestAssuredAPITesting_Employee_Project;41 - ****Checking Status Code****
+2022-08-09 15:11:57 INFO  RestAssuredAPITesting_Employee_Project;43 - Status Code is===>200
+2022-08-09 15:11:57 INFO  RestAssuredAPITesting_Employee_Project;88 - ****Completed TC001_GET_All_Employees****

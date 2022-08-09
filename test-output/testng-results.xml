@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="EmployeesRestAPISuite" duration-ms="7187" started-at="2022-08-09T09:41:49Z" finished-at="2022-08-09T09:41:57Z">
+    <groups>
+    </groups>
+    <test name="EmployeesRestAPITest" duration-ms="7187" started-at="2022-08-09T09:41:49Z" finished-at="2022-08-09T09:41:57Z">
+      <class name="com.employeeApi.testcases.TC001_GET_All_Employees$getAllEmplyees">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.employeeApi.testcases.TC001_GET_All_Employees$getAllEmplyees@7dc36524]" name="setUp" is-config="true" duration-ms="51" started-at="2022-08-09T15:11:50Z" finished-at="2022-08-09T15:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAllEmployees()[pri:0, instance:com.employeeApi.testcases.TC001_GET_All_Employees$getAllEmplyees@7dc36524]" name="getAllEmployees" is-config="true" duration-ms="6411" started-at="2022-08-09T15:11:50Z" finished-at="2022-08-09T15:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployees -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.employeeApi.testcases.TC001_GET_All_Employees$getAllEmplyees@7dc36524]" name="checkContentType" duration-ms="44" started-at="2022-08-09T15:11:57Z" finished-at="2022-08-09T15:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkHeaders()[pri:0, instance:com.employeeApi.testcases.TC001_GET_All_Employees$getAllEmplyees@7dc36524]" name="checkHeaders" duration-ms="2" started-at="2022-08-09T15:11:57Z" finished-at="2022-08-09T15:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHeaders -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.employeeApi.testcases.TC001_GET_All_Employees$getAllEmplyees@7dc36524]" name="checkResponseBody" duration-ms="21" started-at="2022-08-09T15:11:57Z" finished-at="2022-08-09T15:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.employeeApi.testcases.TC001_GET_All_Employees$getAllEmplyees@7dc36524]" name="checkResponseTime" duration-ms="2" started-at="2022-08-09T15:11:57Z" finished-at="2022-08-09T15:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkServerType()[pri:0, instance:com.employeeApi.testcases.TC001_GET_All_Employees$getAllEmplyees@7dc36524]" name="checkServerType" duration-ms="1" started-at="2022-08-09T15:11:57Z" finished-at="2022-08-09T15:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.employeeApi.testcases.TC001_GET_All_Employees$getAllEmplyees@7dc36524]" name="checkStatusCode" duration-ms="1" started-at="2022-08-09T15:11:57Z" finished-at="2022-08-09T15:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.employeeApi.testcases.TC001_GET_All_Employees$getAllEmplyees@7dc36524]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-08-09T15:11:57Z" finished-at="2022-08-09T15:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.employeeApi.testcases.TC001_GET_All_Employees$getAllEmplyees -->
+    </test> <!-- EmployeesRestAPITest -->
+  </suite> <!-- EmployeesRestAPISuite -->
+</testng-results>
